@@ -20,7 +20,7 @@ container.addChild(sprite);
 
 const maskSprites = (() => {
   maskMap = {};
-  ['mask1', 'mask2', 'mask3', 'mask4'].forEach((id) => {
+  ['mask1', 'mask2', 'mask3', 'mask4', 'mask5'].forEach((id) => {
     const maskImg = document.getElementById(id);
     const sprite = new PIXI.Sprite(PIXI.Texture.from(maskImg));
     maskMap[id] = sprite;
