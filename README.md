@@ -1,6 +1,10 @@
 # pixi-mask-test
 
-## Run
+## Demo
+
+https://okayumoka.github.io/pixi-mask-test/
+
+## Run on local
 
 ```bash
 npm install
